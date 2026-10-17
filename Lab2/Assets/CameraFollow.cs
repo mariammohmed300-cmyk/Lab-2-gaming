@@ -23,7 +23,7 @@ public class CameraFollow : MonoBehaviour
     }
     void  FixedUpdate() {
         if (Target!=null){
-            Vector2 newCamPostion=Vector2.Lerp(transform.position,Target.position,Time.deltaTime*Cameraspeed);
+            Vector3 newCamPostion=Vector3.Lerp(transform.position,Target.position,Time.deltaTime*Cameraspeed);
         
    
         float ClampX=Mathf.Clamp(newCamPostion.x,minX,maxX);
