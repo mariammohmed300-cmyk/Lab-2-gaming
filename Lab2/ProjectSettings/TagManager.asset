@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CheckPoint
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -49,4 +51,10 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 939233671
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 1619163913
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 3843410929
     locked: 0
